@@ -1,0 +1,13 @@
+# Large Excel with images (keep local, use clean version for deploy)
+benchmark data.xlsx
+# Temp files
+~$*.xlsx
+*.tmp
+columns_info.txt
+data_check.json
+# Python
+__pycache__/
+*.pyc
+# IDE
+.vscode/
+.idea/
